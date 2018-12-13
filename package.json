@@ -1,0 +1,35 @@
+{
+  "name": "slack-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node ./build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/sequelize": "^4.27.33",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "graphql-tools": "^4.0.3",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-easy-state": "^6.0.6",
+    "source-map-loader": "^0.2.4",
+    "typescript": "^3.2.2"
+  },
+  "dependencies": {
+    "@types/graphql": "^14.0.3",
+    "apollo-server": "^2.2.6",
+    "apollo-server-express": "^2.2.6",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "graphql": "^14.0.2",
+    "sequelize": "^4.41.2"
+  }
+}
